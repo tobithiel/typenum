@@ -1066,6 +1066,7 @@ where
 // Greatest Common Divisor
 
 /// The even number 2*N
+#[allow(dead_code)]
 type Even<N> = UInt<N, B0>;
 
 /// The odd number 2*N + 1
