@@ -529,6 +529,7 @@ pub trait SquareRoot {
 /// assert_eq!(<U12 as Gcd<U8>>::Output::to_i32(), 4);
 /// ```
 pub trait Gcd<Rhs> {
+    /// The result of the integer binary GCD.
     type Output;
 }
 
